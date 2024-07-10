@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    app:showAsAction="always"
+    android:icon="@drawable/baseline_more_vert_24"
+    android:title=""
+    >
+    <menu>
+        <item
+            android:icon="@drawable/baseline_perm_contact_calendar_24"
+            android:id="@+id/menucontact"
+          android:title="Contact Us"
+            app:showAsAction="never"
+            />
+        <item
+            android:icon="@drawable/baseline_outlet_24"
+            android:id="@+id/menuabout"
+            android:title="About us "
+            app:showAsAction="never"
+            />
+        <item
+            android:icon="@drawable/baseline_assistant_24"
+            android:id="@+id/menureview"
+            android:title="Review"
+            app:showAsAction="never"
+            />
+    </menu>
+
+
+</item>
+</menu>
